@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.MarketInfo.InfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="강의 소개" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="빅스비는 음성, 터치, 카메라 촬영, 사진분석, 사용자 이용 패턴 분석 등의 다양한 수단과 매체를 이용하는 AI로 2017년 3월 30일에 공개되었다. 보이스(Voice), 비전(Vision), 리마인더(Reminder), 루틴(Routine) 으로 사용하는 수단과 매체에 따라 기능이 각각 나누어져 있다. 또한, 딥러닝 기반의 AI로 개발되면서 삼성 계정과 기기에 이용 데이터가 쌓일수록 더 정교하고 정확한 결과를 보여준다."
+        />
+
+</FrameLayout>
