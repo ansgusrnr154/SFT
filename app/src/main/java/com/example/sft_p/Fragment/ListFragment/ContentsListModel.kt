@@ -1,9 +1,9 @@
-package com.example.sft_p.Fragment
+package com.example.sft_p.Fragment.ListFragment
 
 
 data class ContentsListModel(
 
-    var image: String,
+    var image: Int,
     var title: String,
     var number: Int,
     var category: String

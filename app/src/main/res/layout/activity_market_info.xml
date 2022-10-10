@@ -93,7 +93,7 @@
             android:id="@+id/header_zzim"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_width="match_parent"
-            android:text="하트뿅뿅 찜"
+            android:text="식당 찜하기"
             android:textColor="#FF0000"
             android:gravity="center"
             android:layout_marginTop="10dp"

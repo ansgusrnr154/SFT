@@ -1,4 +1,4 @@
-package com.example.sft_p.Fragment
+package com.example.sft_p.Fragment.ListFragment
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -35,7 +35,9 @@ class FirstFragAdapter (val context : Context, val list : ArrayList<ContentsList
         }
         val item = list[position]
 
+        holder.view_iamge1?.setImageResource(item.image)
         holder.view_text1?.text = item.title
+
 
         return view
     }

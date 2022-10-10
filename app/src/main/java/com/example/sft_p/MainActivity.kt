@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
 import com.example.sft_p.Fragment.Auth.LoginActivity
 import com.example.sft_p.Fragment.Auth.MypageActivity
+import com.example.sft_p.Zzim.ZzimActivity
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.bottom.*
@@ -70,13 +71,13 @@ class MainActivity : AppCompatActivity() {
         viewpager.adapter = adapter
 
 
-//        zzim_icon.setOnClickListener {
-//
-//            val intent = Intent(this, ZzimActivity::class.java)
-//            startActivity(intent)
-//
-//        }
-//
+        zzim_icon.setOnClickListener {
+
+            val intent = Intent(this, ZzimActivity::class.java)
+            startActivity(intent)
+
+        }
+
         my_page.setOnClickListener {
 
 
