@@ -28,6 +28,4 @@ class ZzimAdapter(val context: Context, val list_array : ArrayList<String>) : Ba
     override fun getCount(): Int {
         return list_array.size
     }
-
-
 }

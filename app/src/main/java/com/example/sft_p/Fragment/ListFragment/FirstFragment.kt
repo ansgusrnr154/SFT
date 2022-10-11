@@ -21,15 +21,15 @@ class FirstFragment : Fragment() {
 
         val list_array = arrayListOf<ContentsListModel>(
 
-            ContentsListModel(R.drawable.list1,"Leng1",1,"d"),
-            ContentsListModel(R.drawable.list2,"Leng2",1,"d"),
-            ContentsListModel(R.drawable.list3,"Leng3",1,"d"),
-            ContentsListModel(R.drawable.list4,"Leng4",1,"d"),
-            ContentsListModel(R.drawable.list5,"Leng5",1,"d"),
-            ContentsListModel(R.drawable.list6,"Leng6",1,"d"),
-            ContentsListModel(R.drawable.list7,"Leng7",1,"d"),
-            ContentsListModel(R.drawable.list8,"Leng8",1,"d"),
-            ContentsListModel(R.drawable.list9,"Leng9",1,"d")
+            ContentsListModel(R.drawable.hamberger,"test1",1,"d"),
+            ContentsListModel(R.drawable.test1,"test2",1,"d"),
+            ContentsListModel(R.drawable.test2,"test3",1,"d"),
+            ContentsListModel(R.drawable.test3,"test4",1,"d"),
+            ContentsListModel(R.drawable.test4,"test5",1,"d"),
+            ContentsListModel(R.drawable.test5,"test6",1,"d"),
+            ContentsListModel(R.drawable.test6,"test7",1,"d"),
+            ContentsListModel(R.drawable.test7,"test8",1,"d"),
+            ContentsListModel(R.drawable.test8,"test9",1,"d")
         )
 
         val list_adapter = FirstFragAdapter(requireContext(), list_array)
@@ -51,15 +51,15 @@ class FirstFragment : Fragment() {
                     //Data 필드가 없을 때
 
                     val lecture = hashMapOf(
-                        "Leng1" to "",
-                        "Leng2" to "",
-                        "Leng3" to "",
-                        "Leng4" to "",
-                        "Leng5" to "",
-                        "Leng6" to "",
-                        "Leng7" to "",
-                        "Leng8" to "",
-                        "Leng9" to ""
+                        "안산닭한마리" to "",
+                        "test2" to "",
+                        "test3" to "",
+                        "test4" to "",
+                        "test5" to "",
+                        "test6" to "",
+                        "test7" to "",
+                        "test8" to "",
+                        "test9" to ""
                     )
 
                     FirebaseUtils.db

@@ -20,12 +20,12 @@ class LectureActivity : AppCompatActivity() {
             FragmentAdapter(supportFragmentManager)
         list_viewpager.adapter = fragmentAdapter
 
-        tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("AI")))
-        tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("CSS")))
-        tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("HTML")))
-        tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("ID")))
-        tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("JPG")))
-        tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("JS")))
+        tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("한식")))
+        tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("중식")))
+        tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("일식")))
+        tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("디저트")))
+        tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("양식")))
+        tab_layout.addTab(tab_layout.newTab().setCustomView(createTabView("카페")))
 
         list_viewpager.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(tab_layout))
 

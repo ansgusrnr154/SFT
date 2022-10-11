@@ -42,7 +42,7 @@ class MarketInfoActivity : AppCompatActivity() {
             //이미 찜이 되어있을때
             if (header_zzim.text.equals("찜한 식당입니다!")){
 
-                header_zzim.text = "식당 찜하기"
+                header_zzim.text = "찜한 식당입니다!"
                 header_zzim.setTextColor(Color.RED)
 
                 FirebaseUtils.db

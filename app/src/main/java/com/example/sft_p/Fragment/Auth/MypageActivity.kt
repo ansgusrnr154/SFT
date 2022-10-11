@@ -1,7 +1,9 @@
 package com.example.sft_p.Fragment.Auth
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.sft_p.MainActivity
 import com.example.sft_p.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -27,5 +29,19 @@ class MypageActivity : AppCompatActivity() {
 
 
         }
+        logout_button.setOnClickListener {
+
+            auth.signOut()
+
+            val intent = Intent(this, MainActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
+
+        }
+
+
+
+
+
     }
 }

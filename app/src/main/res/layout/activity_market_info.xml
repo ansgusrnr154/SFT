@@ -16,7 +16,7 @@
         android:textSize="30dp"
         android:textColor="#000000"
         android:textStyle="bold"
-        android:text="안산닭요리"/>
+        android:text="안산닭한마리"/>
 
 
     <TextView
@@ -27,7 +27,7 @@
         android:textSize="20dp"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/lecture_text"
-        android:text="최근 리뷰"/>
+        android:text=""/>
 
     <View
         android:id="@+id/header_line"
@@ -48,7 +48,7 @@
 
         <TextView
             android:id="@+id/price_text"
-            android:text="강의금액"
+            android:text="식당 대표메뉴"
             android:layout_width="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -67,7 +67,7 @@
             app:layout_constraintLeft_toRightOf="@+id/price_text"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="30dp"
-            android:text="25,000원"
+            android:text="닭 한마리"
             />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

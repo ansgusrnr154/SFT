@@ -26,33 +26,33 @@ class MainActivity : AppCompatActivity() {
 
 
         val img = arrayOf(
-            R.drawable.ai,
-            R.drawable.css,
-            R.drawable.html,
-            R.drawable.id,
-            R.drawable.jpg,
-            R.drawable.js,
-            R.drawable.mp4,
-            R.drawable.pdf,
-            R.drawable.php,
-            R.drawable.png,
-            R.drawable.psd,
-            R.drawable.tiff
+            R.drawable.hamberger,
+            R.drawable.test1,
+            R.drawable.test2,
+            R.drawable.test3,
+            R.drawable.test4,
+            R.drawable.test5,
+            R.drawable.test6,
+            R.drawable.test7,
+            R.drawable.test8,
+            R.drawable.icon1,
+            R.drawable.icon2,
+            R.drawable.icon3
         )
 
         val text = arrayOf(
-            "ai",
-            "css",
-            "html",
-            "id",
-            "jpg",
-            "js",
-            "mp4",
-            "pdf",
-            "php",
-            "ai",
-            "png",
-            "tiff"
+            "BTN1",
+            "BTN2",
+            "BTN3",
+            "BTN4",
+            "BTN5",
+            "BTN6",
+            "BTN7",
+            "BTN8",
+            "BTN9",
+            "BTN10",
+            "BTN11",
+            "BTN12"
         )
 
         val gridviewAdapter = GridviewAdapter(this, img, text)
